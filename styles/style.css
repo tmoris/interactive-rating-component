@@ -34,7 +34,7 @@ html {
 body {
 	background-color: var(--clr-VeryDarkBlue);
 	color: var(--clr-LightGrey);
-	font-size: var(--fs-body);
+	font-size: var(--fs-normal);
 	font-family: var(--ff-primary);
 	line-height: 1.5;
 }
