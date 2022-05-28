@@ -109,14 +109,17 @@ height: 100vh;
 	cursor: pointer;
 	transition: 0.3s all ease-in-out;
 }
+
 .num-btn:hover,.num-btn:focus {
 	color: var(--clr-White);
 	background-color: var(--clr-Orange);
 }
+
 .active {
 	color: var(--clr-White);
 	background-color: var(--clr-MediumGrey);
 }
+
 .card-btn:hover,.card-btn:focus {
 	color: var(--clr-Orange);
 	background-color: var(--clr-White);
