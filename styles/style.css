@@ -121,6 +121,11 @@ height: 100vh;
 	background-color: var(--clr-Orange);
 }
 
+.num-btn:active {
+	color: var(--clr-White);
+	background-color: var(--clr-MediumGrey);
+}
+
 .active {
 	color: var(--clr-White);
 	background-color: var(--clr-MediumGrey);
