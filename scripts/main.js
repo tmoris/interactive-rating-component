@@ -17,8 +17,3 @@ function cardChanger () {
   ratingCard.classList.add('invisible');
   thanksCard.classList.remove('invisible');
 }
-// function rateChoice() {
-// rateNumber.addEventListener('click', () => {
-//   rateChoice();
-// });
-// }
