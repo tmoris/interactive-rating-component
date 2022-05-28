@@ -10,7 +10,7 @@ thanksCard.classList.add('invisible');
 //  adding a click envent listener on the rating card button 
 cardButton.addEventListener('click', () => {
   rateChoice();
-cardChanger();
+  cardChanger();
 });
 // creating a funtion that changes cards in the DOM
 function cardChanger () {
