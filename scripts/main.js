@@ -2,13 +2,10 @@
  const ratingCard = document.querySelector('.rating-section');
  const thanksCard = document.querySelector('.thanks-section');
  thanksCard.classList.add('invisible');
-//  ratingCard.classList.add('invisible');
 cardButton.addEventListener('click', () => {
 cardChanger();
 });
 function cardChanger () {
-  if(thanksCard === thanksCard.classList.contains('invisible')) {
-    thanksCard.classList.remove('invicible');
-  }
-  
+ratingCard.classList.add('invisible');
+thanksCard.classList.remove('invisible');
 }
