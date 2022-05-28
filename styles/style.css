@@ -14,8 +14,8 @@
 	--fs-large: 2.25rem;
 	--fs-medium: 1.5rem;
 	--fs-normal: 1rem;
-	--fs-body: 0.9375;
-	--fs-small: 0.8725;
+	--fs-body: 0.9375rem;
+	--fs-small: 0.8725rem;
 	/* colors */
 	/* ### Primary */
 	--clr-Orange: hsl(25, 97%, 53%);
@@ -26,6 +26,11 @@
 	--clr-DarkBlue: hsl(213, 19%, 18%);
 	--clr-VeryDarkBlue: hsl(216, 12%, 8%);
 }
+html {
+	font-size: 93.8%;
+	scroll-behavior: smooth;
+} /*15px*/
+
 body {
 	background-color: var(--clr-VeryDarkBlue);
 	color: var(--clr-LightGrey);
@@ -33,14 +38,15 @@ body {
 	font-family: var(--ff-primary);
 	line-height: 1.5;
 }
+
 .flex-centered {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 100vh;
-
 }
+
 .flex-centered >*{
 	width: 100%;
 	}
