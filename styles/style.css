@@ -156,6 +156,13 @@ padding: 1em;
 	opacity: 0.75;
 
 }
+.backward-link {
+	color: var(--clr-Orange);
+	font-size: 1 rem;
+	position: absolute;
+	top: 1em;
+	text-decoration: none;
+}
 .footer {
 	position: absolute;
 	bottom: 0;
