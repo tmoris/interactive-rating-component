@@ -9,6 +9,7 @@ const rates = document.querySelectorAll('.rates');
 thanksCard.classList.add('invisible');
 //  adding a click envent listener on the rating card button 
 cardButton.addEventListener('click', () => {
+  
   cardChanger();
 });
 // creating a funtion that changes cards in the DOM
