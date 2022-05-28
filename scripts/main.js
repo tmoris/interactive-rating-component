@@ -37,14 +37,6 @@ function ratingPageChanger() {
 rates.forEach(element => {
 
   rates.addEventListener('click', () => {
-
-rateChoice()
+    document.querySelector('.rate-choice') = rates.values;
   });
 });
-
-function rateChoice() {
-  element=rates[i].textContent;
-  let rateChoice = document.querySelector('.rate-choice');
-  rateChoice.innerHTML = element;
-
-}
