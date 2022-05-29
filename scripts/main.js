@@ -34,7 +34,4 @@ function ratingPageChanger() {
 }
 
 
-  rates.addEventListener('click', () => {
-    rates.classList.add('.active');
-    document.querySelector('.rate-choice') = rates.values;
-  });
+  
