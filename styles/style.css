@@ -67,6 +67,19 @@ height: 100vh;
 	margin-bottom: 2em;
 }
 
+.form-fieldset {
+	border: none;
+	display: flex;
+}
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
 .card {
 	background-color: var(--clr-DarkBlue);
 	padding: 1.5em;
@@ -94,7 +107,7 @@ height: 100vh;
 	margin: 1em 0;
 }
 
-.num-btn {
+.form-control {
 	width: 2rem;
 	height: 2rem;
 	padding: 0.25em 0.5em;
@@ -126,12 +139,12 @@ height: 100vh;
 	transition: 150ms ease-in;
 }
 
-.num-btn:hover,.num-btn:focus {
+.form-control:hover,.form-control:focus {
 	color: var(--clr-White);
 	background-color: var(--clr-Orange);
 }
 
-.num-btn:active {
+.form-control:active {
 	color: var(--clr-White);
 	background-color: var(--clr-MediumGrey);
 }

@@ -3,7 +3,7 @@
 const cardButton =  document.querySelector('.card-btn'); 
 const ratingCard = document.querySelector('.rating-section');
 const thanksCard = document.querySelector('.thanks-section');
-const rates = document.querySelectorAll('.rates');
+const rates = document.querySelectorAll('.form-control');
 const backWardPage = document.querySelector('.backward-link');
 
 //  removing the tahnks card from the DOM

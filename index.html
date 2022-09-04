@@ -30,14 +30,33 @@
         to help us improve our offering!</P>
       </div>
       
-      <form class="rate-option-section" action="#thanks-section" name="ratesForm" method="get">
-        <input  type="submit" id="numbtn-1" class="num-btn"  name="rates" value="1">
-        <input  id="numbtn-2" class="num-btn" type="submit" name="rates" value="2">
-        <input  id="numbtn-3" class="num-btn" type="submit" name="rates" value="3">
-        <input  id="numbtn-4" class="num-btn" type="submit" name="rates" value="4">
-        <input  id="numbtn-5" class="num-btn" type="submit" name="rates" value="5">
+      <form class="rate-option-section" name="ratesForm" method="get" action="#rate">
+       <fieldset class="form-fieldset">
+        <legend class="sr-only">rates</legend>
+        <div class="form-group">
+          <label for="rate_1"> </label>
+          <input  type="button" id="rate_1" class="form-control"  name="rate_1" value="1">
+        </div>
+        <div class="form-group">
+          <label for="rate_2"> </label>
+        <input  id="rate_2" class="form-control" type="button" name="rate_2" value="2">
+        </div>
+       <div class="form-group">
+        <label for="rate_3"> </label>
+        <input  id="rate_3" class="form-control" type="button" name="rate_3" value="3">
+       </div>
+       <div class="form-group">
+        <label for="rate_4"> </label>
+        <input  id="rate_4" class="form-control" type="button" name="rate_4" value="4">
+       </div>
 
-      <button class="btn card-btn">Submit</button>
+       <div class="form-group">
+        <label for="rate_5"> </label>
+        <input  id="rate_5" class="form-control" type="button" name="rate_5" value="5">
+       </div>
+       </fieldset>
+
+      <button type="button" class="btn card-btn">submit</button>
 
       </form>
     </section>
